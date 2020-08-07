@@ -35,9 +35,9 @@ def darken(image, amount):
 def main():
     filename = input("Enter the image file name: ")
     image = Image(filename)
-    lighten(image, 20)
-    darken(image2, 64)
-    colorFilter(image3, (255, 0, 0))
+    #lighten(image, 20) example
+    #darken(image2, 64) example
+    colorFilter(image3, (255, 0, 0)) #example
     image.draw()
 
 if __name__ == "__main__":
