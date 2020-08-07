@@ -2,7 +2,8 @@
 File: colorfilter.py
 Project 7.9
 
-
+Defines and tests a function for color filtering.  Uses this
+function to define functions for lightening and darkening images.
 """
 
 from images import Image
